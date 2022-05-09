@@ -1,0 +1,196 @@
+[{
+        "code": "Tab",
+        "symbol": {
+            "en": "Tab",
+            "ru": "Tab"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 96px"
+    },
+    {
+        "code": "KeyQ",
+        "symbol": {
+            "en": "Q",
+            "ru": "Й"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyW",
+        "symbol": {
+            "en": "W",
+            "ru": "Ц"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyE",
+        "symbol": {
+            "en": "E",
+            "ru": "У"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyR",
+        "symbol": {
+            "en": "R",
+            "ru": "К"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyT",
+        "symbol": {
+            "en": "T",
+            "ru": "Е"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyY",
+        "symbol": {
+            "en": "Y",
+            "ru": "Н"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyU",
+        "symbol": {
+            "en": "U",
+            "ru": "Г"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyI",
+        "symbol": {
+            "en": "I",
+            "ru": "Ш"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyO",
+        "symbol": {
+            "en": "O",
+            "ru": "Щ"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyP",
+        "symbol": {
+            "en": "P",
+            "ru": "З"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "BracketLeft",
+        "symbol": {
+            "en": "[",
+            "ru": "Х"
+        },
+        "subsymbol": {
+            "en": "{",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "BracketRight",
+        "symbol": {
+            "en": "]",
+            "ru": "Ъ"
+        },
+        "subsymbol": {
+            "en": "}",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Backslash",
+        "symbol": {
+            "en": "\\",
+            "ru": "\\"
+        },
+        "subsymbol": {
+            "en": "|",
+            "ru": "/"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Delete",
+        "symbol": {
+            "en": "Del",
+            "ru": "Del"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    }
+]

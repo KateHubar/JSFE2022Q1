@@ -1,0 +1,170 @@
+[{
+        "code": "ShiftLeft",
+        "symbol": {
+            "en": "Shift",
+            "ru": "Shift"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 150px"
+    },
+    {
+        "code": "KeyZ",
+        "symbol": {
+            "en": "Z",
+            "ru": "Я"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyX",
+        "symbol": {
+            "en": "X",
+            "ru": "Ч"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyC",
+        "symbol": {
+            "en": "C",
+            "ru": "С"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyV",
+        "symbol": {
+            "en": "V",
+            "ru": "М"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyB",
+        "symbol": {
+            "en": "B",
+            "ru": "И"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyN",
+        "symbol": {
+            "en": "N",
+            "ru": "Т"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyM",
+        "symbol": {
+            "en": "M",
+            "ru": "Ь"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "Comma",
+        "symbol": {
+            "en": ",",
+            "ru": "Б"
+        },
+        "subsymbol": {
+            "en": "<",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Period",
+        "symbol": {
+            "en": ".",
+            "ru": "Ю"
+        },
+        "subsymbol": {
+            "en": ">",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Slash",
+        "symbol": {
+            "en": "/",
+            "ru": "."
+        },
+        "subsymbol": {
+            "en": "?",
+            "ru": ","
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "ArrowUp",
+        "symbol": {
+            "en": "&#129169;",
+            "ru": "&#129169;"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "ShiftRight",
+        "symbol": {
+            "en": "Shift",
+            "ru": "Shift"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 150px"
+    }
+]

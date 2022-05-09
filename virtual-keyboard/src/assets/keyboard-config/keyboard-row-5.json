@@ -1,0 +1,131 @@
+[{
+        "code": "ControlLeft",
+        "symbol": {
+            "en": "Ctrl",
+            "ru": "Ctrl"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 100px"
+    },
+    {
+        "code": "MetaLeft",
+        "symbol": {
+            "en": "Win",
+            "ru": "Win"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "AltLeft",
+        "symbol": {
+            "en": "Alt",
+            "ru": "Alt"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "Space",
+        "symbol": {
+            "en": "",
+            "ru": ""
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": "width: 384px"
+    },
+    {
+        "code": "AltRight",
+        "symbol": {
+            "en": "Alt",
+            "ru": "Alt"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "ControlRight",
+        "symbol": {
+            "en": "Ctrl",
+            "ru": "Ctrl"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "ArrowLeft",
+        "symbol": {
+            "en": "&#129168;",
+            "ru": "&#129168;"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "ArrowDown",
+        "symbol": {
+            "en": "&#129171;",
+            "ru": "&#129171;"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "ArrowRight",
+        "symbol": {
+            "en": "&#129170;",
+            "ru": "&#129170;"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": ""
+    },
+    {
+        "code": "MetaRight",
+        "symbol": {
+            "en": "Win",
+            "ru": "Win"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 80px"
+    }
+]

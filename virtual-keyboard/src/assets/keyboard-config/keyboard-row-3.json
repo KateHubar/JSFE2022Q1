@@ -1,0 +1,170 @@
+[{
+        "code": "CapsLock",
+        "symbol": {
+            "en": "Caps Lock",
+            "ru": "Caps Lock"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 120px"
+    },
+    {
+        "code": "KeyA",
+        "symbol": {
+            "en": "A",
+            "ru": "Ф"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyS",
+        "symbol": {
+            "en": "S",
+            "ru": "Ы"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyD",
+        "symbol": {
+            "en": "D",
+            "ru": "В"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyF",
+        "symbol": {
+            "en": "F",
+            "ru": "А"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyG",
+        "symbol": {
+            "en": "G",
+            "ru": "П"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyH",
+        "symbol": {
+            "en": "H",
+            "ru": "Р"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyJ",
+        "symbol": {
+            "en": "J",
+            "ru": "О"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyK",
+        "symbol": {
+            "en": "K",
+            "ru": "Л"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "KeyL",
+        "symbol": {
+            "en": "L",
+            "ru": "Д"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "letter",
+        "style": ""
+    },
+    {
+        "code": "Semicolon",
+        "symbol": {
+            "en": ";",
+            "ru": "Ж"
+        },
+        "subsymbol": {
+            "en": ":",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Quote",
+        "symbol": {
+            "en": "'",
+            "ru": "Э"
+        },
+        "subsymbol": {
+            "en": "\"",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Enter",
+        "symbol": {
+            "en": "Enter",
+            "ru": "Enter"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 174px"
+    }
+]

@@ -1,4 +1,5 @@
-import Keyboard from './components/keyboard';
+// eslint-disable-next-line import/extensions
+import Keyboard from './components/keyboard.js';
 
 class App {
   root;

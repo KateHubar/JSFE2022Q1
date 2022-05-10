@@ -45,7 +45,7 @@ class App {
     this.description = document.createElement('div');
     this.description.classList.add('description');
     this.description.classList.add('hidden');
-    this.description.innerHTML = 'Windows OS <br> Change language: Alt + Sift';
+    this.description.innerHTML = 'Windows OS <br> Change language: Alt + Sift <br> Add symbol: Ctrl';
     this.root.append(this.description);
   }
 

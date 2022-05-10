@@ -1,4 +1,5 @@
-import App from './app';
+// eslint-disable-next-line import/extensions
+import App from './app.js';
 
 const keyboardConfig = [
   './src/assets/keyboard-config/keyboard-row-1.json',

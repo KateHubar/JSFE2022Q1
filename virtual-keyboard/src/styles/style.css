@@ -19,24 +19,27 @@ body {
 }
 
 .textarea {
-  width: 70%;
+  width: 1066px;
   margin: 0 auto;
-  background-color: aquamarine;
+  margin-top: 20px;
 }
 
 .textarea .text {
-  width: 100%;
+  width: 1060px;
   height: 45vh;
+  resize: none;
 }
 
 .keyboard {
-  width: 70%;
+  width: 1066px;
   margin: 0 auto;
+  margin-bottom: 20px;
   background-color: #505050;
+  border: 5px solid #505050;
+  border-radius: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* grid-template-rows: repeat(5, 1fr); */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -46,10 +49,6 @@ body {
 
 .keyboard .keyboard-row {
   width: 100%;
-  /*   display: grid;
-        grid-gap: 5px;
-        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr;
-        grid-template-columns: repeat(15, 1fr); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,8 +80,8 @@ body {
 }
 
 .keyboard .keyboard-row .key.active {
-  background-color: #2cfd72;
-  border-radius: 20px;
+  background-color: #55b174;
+  border-radius: 5px;
 }
 
 .hidden {

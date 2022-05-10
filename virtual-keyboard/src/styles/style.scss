@@ -12,29 +12,28 @@ body {
 }
 
 .textarea {
-    width: 70%;
+    width: 1066px;
     margin: 0 auto;
-    background-color: aquamarine;
+    margin-top: 20px;
     .text {
-        width: 100%;
+        width: 1060px;
         height: 45vh;
+        resize: none;
     }
 }
 
 .keyboard {
-    width: 70%;
+    width: 1066px;
     margin: 0 auto;
+    margin-bottom: 20px;
     background-color: rgb(80, 80, 80);
+    border: 5px solid rgb(80, 80, 80);
+    border-radius: 2px;
     display: flex;
-    /* grid-template-rows: repeat(5, 1fr); */
     flex-direction: column;
     gap: 5px;
     .keyboard-row {
         width: 100%;
-        /*   display: grid;
-        grid-gap: 5px;
-        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr;
-        grid-template-columns: repeat(15, 1fr); */
         display: flex;
         flex-direction: row;
         gap: 5px;
@@ -51,8 +50,8 @@ body {
             justify-content: center;
             cursor: pointer;
             &.active {
-                background-color: #2cfd72;
-                border-radius: 20px;
+                background-color: #55b174;
+                border-radius: 5px;
             }
         }
     }

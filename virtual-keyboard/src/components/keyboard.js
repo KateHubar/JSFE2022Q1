@@ -5,6 +5,7 @@ export class Keyboard {
     languages = ['en', 'ru'];
     language;
     commands;
+    isUpperCase = true;
 
     constructor(root, input, config) {
         this.root = root;
@@ -33,7 +34,7 @@ export class Keyboard {
                 });
 
                 htmlKey.style.cssText += key.style;
-                htmlKey.innerHTML = key.symbol[this.language];
+                htmlKey.innerHTML = this.isUpperCase ? key.symbol[this.language].toUpperCase() : key.symbol[this.language].toLowerCase();
 
                 htmlKey.classList.add('key');
                 htmlKey.classList.add(`key-type-${key.type}`);
@@ -56,6 +57,7 @@ export class Keyboard {
                             code: event.target.dataset['code'],
                         }));
                     }
+                    this.refresh();
                 });
                 htmlKey.addEventListener('mouseup', (event) => {
                     this.input.focus();
@@ -76,7 +78,7 @@ export class Keyboard {
             }
         });
         this.input.addEventListener('keyup', (event) => {
-            console.log('KEYUP', event);
+            this.refresh();
             if (event.code === 'ShiftLeft' ||
                 event.code === 'ShiftRight' ||
                 event.code === "ControlLeft" ||
@@ -84,7 +86,6 @@ export class Keyboard {
                 event.code === 'AltLeft' ||
                 event.code === 'AltRight') {
                 const code = event.code.replace(/Right|Left/g, '');
-                console.log('Code', code);
                 const btns = this.root.querySelectorAll(`#${code}Left, #${code}Right`);
                 this.deactivateBtn(btns, event);
             } else {
@@ -119,6 +120,18 @@ export class Keyboard {
             if (!this.commands.has(event.code)) {
                 this.commands.add(btn.dataset['code']);
             }
+        }
+    }
+
+    refresh() {
+        if ((this.commands.has("ShiftRight") || this.commands.has("ShiftLeft")) &&
+            (this.commands.has("AltRight") || this.commands.has("AltLeft"))) {
+            const indx = this.languages.indexOf(this.language) + 1;
+            this.language = this.languages.length > indx ? this.languages[indx] : this.languages[0];
+            const localBtns = this.root.querySelectorAll('.key-type-location');
+            localBtns.forEach(btn => {
+                btn.innerHTML = btn.dataset[`symbol${this.language}`];
+            })
         }
     }
 }

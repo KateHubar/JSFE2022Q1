@@ -9,21 +9,9 @@
             "ru": ""
         },
         "type": "command-btn",
-        "style": "width: 100px"
+        "style": "width: 120px"
     },
-    {
-        "code": "MetaLeft",
-        "symbol": {
-            "en": "Win",
-            "ru": "Win"
-        },
-        "subsymbol": {
-            "en": "",
-            "ru": ""
-        },
-        "type": "command-btn",
-        "style": ""
-    },
+
     {
         "code": "AltLeft",
         "symbol": {
@@ -35,7 +23,7 @@
             "ru": ""
         },
         "type": "command-btn",
-        "style": ""
+        "style": "width: 110px"
     },
     {
         "code": "Space",
@@ -48,7 +36,7 @@
             "ru": ""
         },
         "type": "letter",
-        "style": "width: 384px"
+        "style": "width: 386px"
     },
     {
         "code": "AltRight",
@@ -61,20 +49,7 @@
             "ru": ""
         },
         "type": "command-btn",
-        "style": ""
-    },
-    {
-        "code": "ControlRight",
-        "symbol": {
-            "en": "Ctrl",
-            "ru": "Ctrl"
-        },
-        "subsymbol": {
-            "en": "",
-            "ru": ""
-        },
-        "type": "command-btn",
-        "style": ""
+        "style": "width: 130px"
     },
     {
         "code": "ArrowLeft",
@@ -116,16 +91,16 @@
         "style": ""
     },
     {
-        "code": "MetaRight",
+        "code": "ControlRight",
         "symbol": {
-            "en": "Win",
-            "ru": "Win"
+            "en": "Ctrl",
+            "ru": "Ctrl"
         },
         "subsymbol": {
             "en": "",
             "ru": ""
         },
         "type": "command-btn",
-        "style": "width: 80px"
+        "style": "width: 76px"
     }
 ]

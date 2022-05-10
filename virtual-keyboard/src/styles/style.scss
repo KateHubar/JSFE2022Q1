@@ -17,7 +17,7 @@ body {
     margin-top: 20px;
     .text {
         width: 1060px;
-        height: 45vh;
+        height: 40vh;
         resize: none;
     }
 }
@@ -25,7 +25,7 @@ body {
 .keyboard {
     width: 1066px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background-color: rgb(80, 80, 80);
     border: 5px solid rgb(80, 80, 80);
     border-radius: 2px;
@@ -55,6 +55,14 @@ body {
             }
         }
     }
+}
+
+.description{
+margin: 0 auto;
+font-style: bold;
+margin-bottom: 15px;
+text-align: center;
+text-decoration: solid;
 }
 
 .hidden {

@@ -26,14 +26,14 @@ body {
 
 .textarea .text {
   width: 1060px;
-  height: 45vh;
+  height: 40vh;
   resize: none;
 }
 
 .keyboard {
   width: 1066px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background-color: #505050;
   border: 5px solid #505050;
   border-radius: 2px;
@@ -82,6 +82,15 @@ body {
 .keyboard .keyboard-row .key.active {
   background-color: #55b174;
   border-radius: 5px;
+}
+
+.description {
+  margin: 0 auto;
+  font-style: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
 }
 
 .hidden {

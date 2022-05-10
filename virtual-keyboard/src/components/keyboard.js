@@ -7,7 +7,7 @@ class Keyboard {
 
   languages = ['en', 'ru'];
 
-  language;
+  languageValue;
 
   commands;
 
@@ -17,8 +17,19 @@ class Keyboard {
     this.root = root;
     this.config = config;
     this.input = input;
-    [this.language] = this.languages;
     this.commands = new Set();
+    this.languageValue = window.localStorage;
+    if (!this.language) {
+      [this.language] = this.languages;
+    }
+  }
+
+  get language() {
+    return this.languageValue.getItem('language');
+  }
+
+  set language(lng) {
+    this.languageValue.setItem('language', lng);
   }
 
   init() {

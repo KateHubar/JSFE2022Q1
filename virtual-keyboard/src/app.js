@@ -18,6 +18,8 @@ class App {
 
   keyBoard;
 
+  description;
+
   constructor(root, configUrls) {
     this.root = root;
     this.root.classList.add('app');
@@ -39,6 +41,12 @@ class App {
     this.keyBoardRoot.classList.add('keyboard');
     this.keyBoardRoot.classList.add('hidden');
     this.root.append(this.keyBoardRoot);
+
+    this.description = document.createElement('div');
+    this.description.classList.add('description');
+    this.description.classList.add('hidden');
+    this.description.innerHTML = 'Windows OS <br> Change language: Alt + Sift';
+    this.root.append(this.description);
   }
 
   init() {
@@ -58,10 +66,12 @@ class App {
     if (value) {
       this.textarea.classList.add('hidden');
       this.keyBoardRoot.classList.add('hidden');
+      this.description.classList.add('hidden');
       this.loader.classList.remove('hidden');
     } else {
       this.textarea.classList.remove('hidden');
       this.keyBoardRoot.classList.remove('hidden');
+      this.description.classList.remove('hidden');
       this.loader.classList.add('hidden');
     }
   }

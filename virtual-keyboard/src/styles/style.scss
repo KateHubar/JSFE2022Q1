@@ -17,7 +17,7 @@ body {
     margin-top: 20px;
     .text {
         width: 1060px;
-        height: 40vh;
+        height: 35vh;
         resize: none;
     }
 }
@@ -52,6 +52,7 @@ body {
             &.active {
                 background-color: #55b174;
                 border-radius: 5px;
+                box-shadow: inset 1px 1px 1px 1px rgb(27, 30, 27);
             }
         }
     }

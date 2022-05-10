@@ -11,8 +11,6 @@ class Keyboard {
 
   commands;
 
-  isUpperCase = true;
-
   constructor(root, input, config) {
     this.root = root;
     this.config = config;
@@ -30,6 +28,10 @@ class Keyboard {
 
   set language(lng) {
     this.languageValue.setItem('language', lng);
+  }
+
+  get isUpperCase() {
+    return this.commands.has('ShiftRight') || this.commands.has('ShiftLeft') || this.commands.has('CapsLock');
   }
 
   init() {
@@ -105,6 +107,23 @@ class Keyboard {
                 || event.code === 'AltRight') {
         const code = event.code.replace(/Right|Left/g, '');
         const btns = this.root.querySelectorAll(`#${code}Left, #${code}Right`);
+
+        if (event.code === 'ControlLeft' || event.code === 'ControlRight') {
+          const subsymbols = this.root.querySelectorAll('.key-type-subsymbol');
+          subsymbols.forEach((btn) => {
+          // eslint-disable-next-line no-param-reassign
+            btn.innerHTML = btn.dataset[`symbol${this.language}`] || btn.dataset.symbolen;
+          });
+        }
+        if ((this.commands.has('ShiftLeft') || this.commands.has('ShiftRight'))
+          && !(this.commands.has('AltRight') || this.commands.has('AltLeft'))) {
+          const keys = this.root.querySelectorAll('.key');
+          keys.forEach((bt) => {
+            const val = bt.dataset[`symbol${this.language}`] || bt.dataset.symbolen;
+            // eslint-disable-next-line no-param-reassign
+            bt.innerHTML = val.toLowerCase();
+          });
+        }
         this.deactivateBtn(btns);
       } else {
         const btn = this.root.querySelector(`#${event.code}`);
@@ -131,12 +150,27 @@ class Keyboard {
   enterSymbol(btn, event) {
     if (btn.dataset.type !== 'command-btn') {
       event.preventDefault();
-      const value = btn.dataset[`symbol${this.language}`] || btn.dataset[`symbol${this.languages[0]}`];
-      this.input.value += this.commands.has('ShiftRight') || this.commands.has('ShiftLeft') ? value.toUpperCase() : value.toLowerCase();
+      const value = btn.innerHTML;
+      this.input.value += this.isUpperCase ? value.toUpperCase() : value.toLowerCase();
     }
     if (btn.dataset.type === 'command-btn') {
       if (!this.commands.has(event.code)) {
         this.commands.add(btn.dataset.code);
+      }
+      if (this.commands.has('ControlRight') || this.commands.has('ControlLeft')) {
+        const subsymbols = this.root.querySelectorAll('.key-type-subsymbol');
+        subsymbols.forEach((bt) => {
+          // eslint-disable-next-line no-param-reassign
+          bt.innerHTML = bt.dataset[`subsymbol${this.language}`] || bt.dataset.subsymbolen;
+        });
+      } else if ((this.commands.has('ShiftLeft') || this.commands.has('ShiftRight'))
+          && !(this.commands.has('AltRight') || this.commands.has('AltLeft'))) {
+        const keys = this.root.querySelectorAll('.key');
+        keys.forEach((bt) => {
+          const val = bt.dataset[`symbol${this.language}`] || bt.dataset.symbolen;
+          // eslint-disable-next-line no-param-reassign
+          bt.innerHTML = val.toUpperCase();
+        });
       }
     }
   }

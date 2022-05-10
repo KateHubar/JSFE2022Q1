@@ -26,7 +26,7 @@ body {
 
 .textarea .text {
   width: 1060px;
-  height: 40vh;
+  height: 35vh;
   resize: none;
 }
 
@@ -82,6 +82,8 @@ body {
 .keyboard .keyboard-row .key.active {
   background-color: #55b174;
   border-radius: 5px;
+  -webkit-box-shadow: inset 1px 1px 1px 1px #1b1e1b;
+          box-shadow: inset 1px 1px 1px 1px #1b1e1b;
 }
 
 .description {

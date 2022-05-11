@@ -42,6 +42,7 @@ body {
             border: 2px solid black;
             border-radius: 5px;
             color: rgb(240, 240, 240);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
             width: 60px;
             height: 60px;
             text-align: center;
@@ -52,7 +53,9 @@ body {
             &.active {
                 background-color: #55b174;
                 border-radius: 5px;
-                box-shadow: inset 1px 1px 1px 1px rgb(27, 30, 27);
+                /* box-shadow: inset 1px 1px 1px 1px rgb(27, 30, 27); */
+                /* transform: translateY(-1px); */
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); 
             }
         }
     }

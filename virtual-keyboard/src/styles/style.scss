@@ -1,0 +1,97 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.app {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textarea {
+    width: 1066px;
+    margin: 0 auto;
+    margin-top: 20px;
+    .text {
+        width: 1060px;
+        height: 35vh;
+        resize: none;
+    }
+}
+
+.keyboard {
+    width: 1066px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background-color: rgb(80, 80, 80);
+    border: 5px solid rgb(80, 80, 80);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .keyboard-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        .key {
+            background-color: rgb(36, 36, 36);
+            border: 2px solid black;
+            border-radius: 5px;
+            color: rgb(240, 240, 240);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            &.active {
+                background-color: #55b174;
+                border-radius: 5px;
+                /* box-shadow: inset 1px 1px 1px 1px rgb(27, 30, 27); */
+                /* transform: translateY(-1px); */
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); 
+            }
+        }
+    }
+}
+
+.description{
+margin: 0 auto;
+font-style: bold;
+margin-bottom: 15px;
+text-align: center;
+text-decoration: solid;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader {
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid pink;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

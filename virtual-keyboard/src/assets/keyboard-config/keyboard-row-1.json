@@ -1,0 +1,183 @@
+[{
+        "code": "Backquote",
+        "symbol": {
+            "en": "`",
+            "ru": "Ё"
+        },
+        "subsymbol": {
+            "en": "~",
+            "ru": ""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit1",
+        "symbol": {
+            "en": "1",
+            "ru": "1"
+        },
+        "subsymbol": {
+            "en": "!",
+            "ru": "!"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit2",
+        "symbol": {
+            "en": "2",
+            "ru": "2"
+        },
+        "subsymbol": {
+            "en": "@",
+            "ru": "\""
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit3",
+        "symbol": {
+            "en": "3",
+            "ru": "3"
+        },
+        "subsymbol": {
+            "en": "#",
+            "ru": "№"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit4",
+        "symbol": {
+            "en": "4",
+            "ru": "4"
+        },
+        "subsymbol": {
+            "en": "$",
+            "ru": ";"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit5",
+        "symbol": {
+            "en": "5",
+            "ru": "5"
+        },
+        "subsymbol": {
+            "en": "%",
+            "ru": "%"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit6",
+        "symbol": {
+            "en": "6",
+            "ru": "6"
+        },
+        "subsymbol": {
+            "en": "^",
+            "ru": ":"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit7",
+        "symbol": {
+            "en": "7",
+            "ru": "7"
+        },
+        "subsymbol": {
+            "en": "&",
+            "ru": "?"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit8",
+        "symbol": {
+            "en": "8",
+            "ru": "8"
+        },
+        "subsymbol": {
+            "en": "*",
+            "ru": "*"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit9",
+        "symbol": {
+            "en": "9",
+            "ru": "9"
+        },
+        "subsymbol": {
+            "en": "(",
+            "ru": "("
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Digit0",
+        "symbol": {
+            "en": "0",
+            "ru": "0"
+        },
+        "subsymbol": {
+            "en": ")",
+            "ru": ")"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Minus",
+        "symbol": {
+            "en": "-",
+            "ru": "-"
+        },
+        "subsymbol": {
+            "en": "_",
+            "ru": "_"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Equal",
+        "symbol": {
+            "en": "=",
+            "ru": "="
+        },
+        "subsymbol": {
+            "en": "+",
+            "ru": "+"
+        },
+        "type": "number",
+        "style": ""
+    },
+    {
+        "code": "Backspace",
+        "symbol": {
+            "en": "&#129044;",
+            "ru": "&#129044;"
+        },
+        "subsymbol": {
+            "en": "",
+            "ru": ""
+        },
+        "type": "command-btn",
+        "style": "width: 165px"
+    }
+]
